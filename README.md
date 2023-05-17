@@ -8,6 +8,8 @@
 - [Docker Engine](https://docs.docker.com/engine/) **AND** [Docker Compose](https://docs.docker.com/compose/)
 
 ## Running the Workspace
+> Docker commands will generally have to be run with "sudo", so if you see usage of `docker-compose`, you might need to use `sudo docker-compose`
+
 ```bash
 git clone https://github.com/Berkeley-CS162/docker.git
 cd docker
@@ -23,4 +25,9 @@ When prompted for a password, enter: `vagrant`
 ## Stopping the Workspace
 ```bash
 docker-compose down
+```
+
+## Resetting the Workspace
+```bash
+sudo rm -rf .workspace
 ```
