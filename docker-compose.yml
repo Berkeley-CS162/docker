@@ -1,10 +1,9 @@
 version: "3.9"
 services:
   cs162:
-    image: potatoparser/vagrant:latest
+    image: cs162/vagrant:latest
     tty: true
     volumes:
       - ./.workspace:/home/vagrant
     ports:
       - "16222:22"
-

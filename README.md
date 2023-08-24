@@ -7,12 +7,20 @@
 
 - [Docker Engine](https://docs.docker.com/engine/) **AND** [Docker Compose](https://docs.docker.com/compose/)
 
-## Running the Workspace
-> Docker commands will generally have to be run with "sudo", so if you see usage of `docker-compose`, you might need to use `sudo docker-compose`
+Docker commands will generally have to be run with "sudo", so if you see usage of `docker-compose` in this documentation, you might need to use `sudo docker-compose`.
+
+## Initial setup
 
 ```bash
 git clone https://github.com/Berkeley-CS162/docker.git
 cd docker
+docker-compose up
+```
+Wait until you see `Docker workspace is ready!`. Then you'll need to terminate the current command with `Ctrl+C`.
+
+## Running the workspace
+
+```bash
 docker-compose up -d
 ```
 
@@ -21,6 +29,9 @@ docker-compose up -d
 ssh vagrant@127.0.0.1 -p 16222
 ```
 When prompted for a password, enter: `vagrant`
+
+## Modifying files locally
+Local files are stored in `./docker/.workspace`
 
 ## Stopping the Workspace
 ```bash
