@@ -1,3 +1,5 @@
+# DEPRECATED. 
+**PLEASE SEE THE NEW [WORKSPACE](https://github.com/Berkeley-CS162/cs162-workspace) INSTEAD**
 # CS 162 Docker-Based Workspace
 
 ## Tools you'll need installed
